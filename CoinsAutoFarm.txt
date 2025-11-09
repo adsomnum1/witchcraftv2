@@ -1,0 +1,7 @@
+while true do
+wait(.5)
+local args = {
+	25
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("GiveCurrency"):FireServer(unpack(args))
+end
